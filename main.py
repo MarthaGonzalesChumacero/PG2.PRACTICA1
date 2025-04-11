@@ -1,14 +1,16 @@
 from calculadorapoo import Calculadora
+from factorialpoo import CalculadoraFactorial
 
-Calculadora_1 = Calculadora(15, 5)
-print(Calculadora_1.sumar())
+print("Calculadora Estandar")
+Calculadora_1 = Calculadora()
 
-Calculadora_2 = Calculadora(20, 5)
-print(Calculadora_2.restar())
+print(Calculadora_1.sumar(2, 5))
+print(Calculadora_1.restar(10, 9))
+print(Calculadora_1.multiplicar(5, 9))
+print(Calculadora_1.dividir(150, 6))
 
-print(Calculadora_1.multiplicar())
-
-print(Calculadora_2.dividir())
-
+print("Calculadora Factorial")
+calculadora_factorial = CalculadoraFactorial(numero=5)
+print(calculadora_factorial.calcular())
 
 
