@@ -98,6 +98,9 @@ print(cal_factorial1.calcular())
 Este código fue creado con el objetivo de facilitar el calculo de factoriales utilizando principios de **Programacion Orientada a Objetos** aprovechando los beneficios del concepto de **herencia en POO** dentro de este enfoque.
 
 ## Licencia
+El presente proyecto esta licenciado bajo los terminos de la licencia APACHE 2.0.
 
-
+```
+http://www.apache.org/licenses/
+```
 ---
